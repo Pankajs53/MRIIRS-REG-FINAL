@@ -19,7 +19,7 @@ app.use(express.json());
 
 app.use(
     cors({
-        origin:["http://localhost:3000","https://mriirs-reg-v4-1.onrender.com"],
+        origin:["http://localhost:3000","https://sunny-scone-33074e.netlify.app"],
         credentials:true,
     })
 )
