@@ -10,11 +10,9 @@ const CordinatorPasscode = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Replace with your actual passcode validation logic
-    const correctPasscode = 'manavrachna2024'; // Example correct passcode
+    const correctPasscode = '**********'; 
 
     if (passcode === correctPasscode) {
-      // Handle correct passcode logic (e.g., navigate to another page)
       toast.success('Passcode is correct');
       navigate("/doctor/search")
     } else {
